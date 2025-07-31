@@ -118,9 +118,12 @@ public class LibrarySystem {
                     break;
                 case 6:
                     System.out.println("Exiting... Thank you!");
+                    System.out.println("Have a Nice Day!");
                     return;
                 default:
                     System.out.println("Invalid choice.");
+                    System.out.print("Pls enter a valid choice: ");
+
             }
         }
     }
